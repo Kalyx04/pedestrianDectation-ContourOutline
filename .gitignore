@@ -14,11 +14,10 @@ mono_crash.*
 # User preferences and settings
 .vscode/
 
+# Visual Studio Code workspace and configuration files
+.vscode/
+
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
 x64/
 x86/
 [Aa][Rr][Mm]/
@@ -30,9 +29,7 @@ bld/
 [Ll]ogs/
 
 # Visual Studio 2019
-.vscode/
 .vs/
-.vscode/*
 
 # Roslyn intermediate files
 *.ide
@@ -156,17 +153,8 @@ checkpoint
 *.ckpt
 *.pb
 
-# Ignore custom ignore files
-.gitignore
-
-# Ignore all files in the workspace except explicitly tracked
-*
-!*/
-
-# Allow tracking of specific files or folders
+# Allow tracking of specific files and directories
 !.gitignore
-!README.md
-!src/
-!include/
-!scripts/
-!models/
+!*.sln
+!pedestrianDetection_Outline/
+!pedestrianDetection_Outline/**
